@@ -1,0 +1,178 @@
+Request method:	POST
+Request URI:	https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJURVNUUjAwMDAxIiwic3RzIjoiQVVUSEVOVElDQVRFRCIsInNjb3BlIjpbXSwiaXNzIjoiQkFFQyIsImV4cCI6MTYzOTQ5NDkzMiwiZW52IjoidGVzdCIsImlhdCI6MTYzOTQ4NDEzMiwianRpIjoiM2M3MWNjNzgtZmYwYS00YTJmLTg0NmUtNzg1NGNhYTE0MDA5In0.NIYKZEuXl5l-AGwIOG45Smpd8o7Mcd7XxCXSIyZFcHlstjUJHNIB7eN-zORLgL8lFqeNxXnL8AO44Kmm4FTyCx78Udx2eYzrWt-Di7lhIwDMpceA0GeSmpxiMLLz305f5XJaaDs9v4nHSjL9K0-Ev41dgxUJKhrr7nBUiRpggpnRz7t0vryGygd6kSEw-r-oSn8Ad8PMfeIJMq9DAY4MPcOeILCqAbxT5Cut-8sw4HaCa9hjPW807-5r6VA8ykbUcHnhVSQfgfJdlIGaHNThu3H8lZNQ3UTrkLtU-z7wflSwQcts9aA7Xst5SGF8Ru47BG_2TKdj6SpgVtxXvU48gA
+				api_key=h73gngnyachm3tft6fqbvahj
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "memberIdentifier": "45172371",
+    "programmeIdentifier": null,
+    "relation": "Brother",
+    "person": {
+        "personName": {
+            "title": null,
+            "firstName": "firstname",
+            "familyName": "familynae",
+            "secondFamilyName": null
+        },
+        "dateOfBirth": "1992-07-09",
+        "emailAddress": {
+            "email": "ghtyyuuu@avios.com"
+        },
+        "gender": null
+    },
+    "associateType": "GUARDIAN"
+}
+HTTP/1.1 201 Created
+Date: Tue, 14 Dec 2021 12:15:35 GMT
+Location: https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates/2af1dad2-e39f-49a8-830e-85d94551076d
+Server: envoy
+x-envoy-upstream-service-time: 360
+X-Mashery-Responder: prod-j-worker-sni-eu-west-1a-05.mashery.com
+Content-Length: 0
+Connection: keep-alive
+Request method:	GET
+Request URI:	https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJURVNUUjAwMDAxIiwic3RzIjoiQVVUSEVOVElDQVRFRCIsInNjb3BlIjpbXSwiaXNzIjoiQkFFQyIsImV4cCI6MTYzOTQ5NDkzMiwiZW52IjoidGVzdCIsImlhdCI6MTYzOTQ4NDEzMiwianRpIjoiM2M3MWNjNzgtZmYwYS00YTJmLTg0NmUtNzg1NGNhYTE0MDA5In0.NIYKZEuXl5l-AGwIOG45Smpd8o7Mcd7XxCXSIyZFcHlstjUJHNIB7eN-zORLgL8lFqeNxXnL8AO44Kmm4FTyCx78Udx2eYzrWt-Di7lhIwDMpceA0GeSmpxiMLLz305f5XJaaDs9v4nHSjL9K0-Ev41dgxUJKhrr7nBUiRpggpnRz7t0vryGygd6kSEw-r-oSn8Ad8PMfeIJMq9DAY4MPcOeILCqAbxT5Cut-8sw4HaCa9hjPW807-5r6VA8ykbUcHnhVSQfgfJdlIGaHNThu3H8lZNQ3UTrkLtU-z7wflSwQcts9aA7Xst5SGF8Ru47BG_2TKdj6SpgVtxXvU48gA
+				api_key=h73gngnyachm3tft6fqbvahj
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "memberIdentifier": "45172371",
+    "programmeIdentifier": null,
+    "relation": "Brother",
+    "person": {
+        "personName": {
+            "title": null,
+            "firstName": "firstname",
+            "familyName": "familynae",
+            "secondFamilyName": null
+        },
+        "dateOfBirth": "1992-07-09",
+        "emailAddress": {
+            "email": "ghtyyuuu@avios.com"
+        },
+        "gender": null
+    },
+    "associateType": "GUARDIAN"
+}
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Date: Tue, 14 Dec 2021 12:15:36 GMT
+Server: envoy
+x-envoy-upstream-service-time: 108
+X-Mashery-Responder: prod-j-worker-sni-eu-west-1b-06.mashery.com
+Content-Length: 159
+Connection: Close
+
+{
+    "code": "RESOURCE_NOT_FOUND",
+    "businessMessage": "Resource not found",
+    "developerMessage": "Resource not found",
+    "developerLink": "https://developer.avios.com/docs"
+}
+Request method:	POST
+Request URI:	https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJURVNUUjAwMDAxIiwic3RzIjoiQVVUSEVOVElDQVRFRCIsInNjb3BlIjpbXSwiaXNzIjoiQkFFQyIsImV4cCI6MTYzOTQ5NDkzMiwiZW52IjoidGVzdCIsImlhdCI6MTYzOTQ4NDEzMiwianRpIjoiM2M3MWNjNzgtZmYwYS00YTJmLTg0NmUtNzg1NGNhYTE0MDA5In0.NIYKZEuXl5l-AGwIOG45Smpd8o7Mcd7XxCXSIyZFcHlstjUJHNIB7eN-zORLgL8lFqeNxXnL8AO44Kmm4FTyCx78Udx2eYzrWt-Di7lhIwDMpceA0GeSmpxiMLLz305f5XJaaDs9v4nHSjL9K0-Ev41dgxUJKhrr7nBUiRpggpnRz7t0vryGygd6kSEw-r-oSn8Ad8PMfeIJMq9DAY4MPcOeILCqAbxT5Cut-8sw4HaCa9hjPW807-5r6VA8ykbUcHnhVSQfgfJdlIGaHNThu3H8lZNQ3UTrkLtU-z7wflSwQcts9aA7Xst5SGF8Ru47BG_2TKdj6SpgVtxXvU48gA
+				api_key=h73gngnyachm3tft6fqbvahj
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "memberIdentifier": "00003456",
+    "programmeIdentifier": null,
+    "relation": "Brother",
+    "person": {
+        "personName": {
+            "title": null,
+            "firstName": "firstname",
+            "familyName": "familynae",
+            "secondFamilyName": null
+        },
+        "dateOfBirth": "1992-07-09",
+        "emailAddress": {
+            "email": "ghtyyuuu@avios.com"
+        },
+        "gender": null
+    },
+    "associateType": "GUARDIAN"
+}
+HTTP/1.1 201 Created
+Date: Tue, 14 Dec 2021 12:15:37 GMT
+Location: https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates/2af1dad2-e39f-49a8-830e-85d94551076d
+Server: envoy
+x-envoy-upstream-service-time: 407
+X-Mashery-Responder: prod-j-worker-sni-eu-west-1a-07.mashery.com
+Content-Length: 0
+Connection: keep-alive
+Request method:	GET
+Request URI:	https://api.avios.com/tst/v1/members/00002922/programmes/BAEC/associates/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJURVNUUjAwMDAxIiwic3RzIjoiQVVUSEVOVElDQVRFRCIsInNjb3BlIjpbXSwiaXNzIjoiQkFFQyIsImV4cCI6MTYzOTQ5NDkzMiwiZW52IjoidGVzdCIsImlhdCI6MTYzOTQ4NDEzMiwianRpIjoiM2M3MWNjNzgtZmYwYS00YTJmLTg0NmUtNzg1NGNhYTE0MDA5In0.NIYKZEuXl5l-AGwIOG45Smpd8o7Mcd7XxCXSIyZFcHlstjUJHNIB7eN-zORLgL8lFqeNxXnL8AO44Kmm4FTyCx78Udx2eYzrWt-Di7lhIwDMpceA0GeSmpxiMLLz305f5XJaaDs9v4nHSjL9K0-Ev41dgxUJKhrr7nBUiRpggpnRz7t0vryGygd6kSEw-r-oSn8Ad8PMfeIJMq9DAY4MPcOeILCqAbxT5Cut-8sw4HaCa9hjPW807-5r6VA8ykbUcHnhVSQfgfJdlIGaHNThu3H8lZNQ3UTrkLtU-z7wflSwQcts9aA7Xst5SGF8Ru47BG_2TKdj6SpgVtxXvU48gA
+				api_key=h73gngnyachm3tft6fqbvahj
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "memberIdentifier": "00003456",
+    "programmeIdentifier": null,
+    "relation": "Brother",
+    "person": {
+        "personName": {
+            "title": null,
+            "firstName": "firstname",
+            "familyName": "familynae",
+            "secondFamilyName": null
+        },
+        "dateOfBirth": "1992-07-09",
+        "emailAddress": {
+            "email": "ghtyyuuu@avios.com"
+        },
+        "gender": null
+    },
+    "associateType": "GUARDIAN"
+}
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Date: Tue, 14 Dec 2021 12:15:39 GMT
+Server: envoy
+x-envoy-upstream-service-time: 92
+X-Mashery-Responder: prod-j-worker-sni-eu-west-1c-10.mashery.com
+Content-Length: 159
+Connection: Close
+
+{
+    "code": "RESOURCE_NOT_FOUND",
+    "businessMessage": "Resource not found",
+    "developerMessage": "Resource not found",
+    "developerLink": "https://developer.avios.com/docs"
+}

@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 9.941 sec <<< FAILURE!
+verify "45172371" using "RetrieveAssociateAPI"  and "GET" method(Add associate)  Time elapsed: 1.182 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<45172371> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinitions.StepDefinition.verify_using_and_method(StepDefinition.java:88)
+	at ?.verify "45172371" using "RetrieveAssociateAPI"  and "GET" method(file:///C:/Users/n480555/Documents/E2EAutomation/src/test/java/Features/Features.feature:8)
+
+Add associate  Time elapsed: 1.186 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<45172371> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinitions.StepDefinition.verify_using_and_method(StepDefinition.java:88)
+	at ?.verify "45172371" using "RetrieveAssociateAPI"  and "GET" method(file:///C:/Users/n480555/Documents/E2EAutomation/src/test/java/Features/Features.feature:8)
+
+Delete Associate  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<00003456> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinitions.StepDefinition.verify_using_and_method(StepDefinition.java:88)
+	at StepDefinitions.Hooks.beforeDeleteAss(Hooks.java:20)
+
